@@ -2878,7 +2878,7 @@ type GoogleCloudRunV2Task struct {
 	LogUri string `json:"logUri,omitempty"`
 	// MaxRetries: Number of retries allowed per Task, before marking this Task
 	// failed.
-	MaxRetries int64 `json:"maxRetries,omitempty"`
+	MaxRetries int64 `json:"maxRetries"`
 	// Name: Output only. The unique name of this Task.
 	Name string `json:"name,omitempty"`
 	// NodeSelector: Output only. The node selector for the task.
